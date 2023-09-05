@@ -1,0 +1,168 @@
+@media screen and (min-width: 425px) {
+
+  #favorite-word .texto-fondo {
+    font-size: 4rem;
+  }
+  #favorite-word .container-favorite .favorite-word-parrafo img {
+    width: 150px;
+  }
+  #header .container-img-mobile {
+    height: 100%;
+    width: 50%;
+    text-align: center;
+  }
+
+}
+
+@media screen and (min-width: 600px) {
+
+  #favorite-word .container-favorite .favorite-word-parrafo {
+    flex-direction: row;
+  }
+}
+
+
+@media screen and (min-width: 1023px) {
+
+  #abilities .abilities-title,
+  #training .training-title,
+  #favorite-word .favorite-word-title {
+    text-align: end;
+  }
+  
+#header .container-hero {
+    width: 100vw;
+    height: 73vh;
+    margin-top: 80px;
+    flex-direction: row;
+  }
+  #header .container-hero .container-hero-info {
+    width: 60%;
+    margin-top: -80px;
+  }
+  #header .container-imagen {
+    display: block;
+    width: 50%;
+    height: 100%;
+  }
+  #header .container-img-desktop {
+    display: flex;
+    position: relative;
+    height: 100%;
+    background-color: var(--primary-color);
+  }
+  #header .container-img-desktop .killua {
+    position: absolute;
+    top: -84px;
+    left: -26px;
+    max-width: 45%;
+    z-index: 2;
+  }
+  #header .container-img-desktop .hunter {
+    width: 40%;
+    position: absolute;
+    right: 0;
+  }
+  #header .container-img-mobile {
+    display: none;
+  }
+  /* Hero titles*/
+#header .container-titles {
+    margin: 0;
+    padding: 0 35px;
+    width: 80%;
+    align-items: flex-start;
+  }
+  #header .container-titles .title {
+    font-size: 3.5rem;
+    width: 100%;
+  }
+  #header .container-titles .sub-title {
+    width: 100%;
+  }
+  #header .container-titles .sub-title-2 {
+    font-size: 1.2rem;
+  }
+  
+/* Hero paragraph*/
+
+#header .container-paragraph {
+    max-width: 80%;
+    font-size: 0.8rem;
+  }
+  /* Hero icons*/
+  #header .container-icons {
+    width: 100%;
+    height: auto;
+    margin-top: 5%;
+  }
+  #header .container-icons ul {
+    width: 85%;
+    margin: 0 auto;
+    padding: 0;
+    justify-content: space-between;
+  }
+  #header .container-icons ul li {
+    padding: 5px;
+    width: 84px;
+    height: 84px;
+    text-align: center;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  #header .container-icons .icons-title {
+    display: block;
+    color: var(--primary-color);
+    font-size: 0.6rem;
+    font-weight: 700;
+  }
+  #header .container-icons img,
+  #header .container-icons ul li .transmuter {
+    width: 47%;
+    height: 47%;
+  }
+  #header .footer-hero {
+    text-align: center;
+    padding: 20px;
+    background-color: var(--primary-color);
+    color: #fff;
+    margin: 0;
+  }
+  
+/* Abilities*/
+#abilities {
+    padding: 5px 0;
+  }
+  
+  #abilities .abilities-title,#training .training-title , #favorite-word .favorite-word-title {
+    font-size: 3rem;
+    margin: 15px 0;
+    width: 100%;
+  }
+  
+  #abilities .container-articles {
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 25px;
+    padding-bottom: 50px;
+  }
+  #abilities .container-article {
+    width: 30%;
+    margin: 20px 40px;
+  }
+  /* SECTION FAVORITE WORD */
+  #favorite-word .container-favorite .favorite-word-parrafo img {
+    width: 60%;
+  }
+  #favorite-word .container-favorite .favorite-word-parrafo{
+    font-size: 1.7rem;
+  }
+  
+
+
+}
+

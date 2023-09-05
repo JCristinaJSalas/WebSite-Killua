@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400&family=Overpass:wght@100;300;400&display=swap");
+
+@media screen and (min-width: 760px) {
+  /* Family's Section */
+
+  #family .container-family-person {
+    margin: 15px;
+    margin-top: 20%;
+  }
+  #family .container-family-img {
+    top: -168px;
+}
+  #sister .container-purpose_life {
+    flex-direction: row;
+  }
+  #sister .container-purpose-life-img {
+    display: block;
+    width: 40vw;
+    text-align: center;
+  }
+  #sister .alluka-paragraph{
+    margin: 0 25px;
+  }
+  #sister .container-alluka-title h2,
+  #sister .container-purpose-life-p h3 {
+    font-size: 2.3rem;
+  }
+  
+}
+
+@media screen and (min-width: 1023px) {
+  #family .container-family {
+    padding-top: 0;
+    width: 90%;
+  }
+
+  #family .container-family-person {
+    width: 140px;
+    margin-top: 15%;
+    transition: all .5s ease-in-out;
+  }
+  #family .container-family-person:hover {
+    scale: 1.2;
+
+  }
+
+  #sister .container-sister{
+    width: 90%;
+  }
+  #sister .container-alluka-title h2,
+  #sister .container-purpose-life-p h3 {
+    font-size: 3.3rem;
+  }
+  #sister .alluka-img {
+    width: 80%;
+    height: 300px;
+  }
+  #sister .alluka-paragraph{
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (min-width: 1245px) {
+    #family .container-family, #sister .container-sister {
+        width: 70%;
+      }
+}
+@media screen and (min-width: 1903px) {
+    #family .container-family, #sister .container-sister {
+        width: 55%;
+      }
+
+}
+
