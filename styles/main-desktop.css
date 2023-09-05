@@ -15,7 +15,9 @@
 }
 
 @media screen and (min-width: 600px) {
-
+  #abilities .container-articles {
+    flex-direction: row !important;
+  }
   #favorite-word .container-favorite .favorite-word-parrafo {
     flex-direction: row;
   }

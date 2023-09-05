@@ -152,7 +152,16 @@
   border-bottom: 0.5rem solid var(--primary-color);
   margin: 15px 0;
   text-align: center;
-}  
+
+ 
+} 
+#abilities .accordion-body{
+   background-color: #fff;
+} 
+#abilities .accordion-item {
+  border: 1px solid #fff;
+}
+
 #abilities .abilities-title{
     color: #c2bad6;
     border-bottom: 0.5rem solid #c2bad6;
@@ -162,40 +171,44 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  width: 50%;
+  margin: 15px auto;
+}
+#abilities .container-box{
+  margin: 15% auto;
+}
+#abilities .accordion-button{
+  background-color: transparent !important;
+  width: auto;
+  height: 200px;
+}
+#abilities .accordion-item {
+  background-color: transparent !important;
+  width: auto;
 }
 
-#abilities .container-article {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 80%;
-  border-radius: 15px;
-  background-color: var(--thrid-color);
-  box-shadow: 4px 5px 8px 4px rgba(0, 0, 0, 0.25);
-
-  padding: 8px;
-  margin: 20px 0;
-}
-#abilities .container-article .container-img-abilities {
-  width: 77px;
-  min-width: 77px;
-  max-width: 200px;
+#abilities .container-img-abilities {
+  width: 200px;
+  min-width: 177px;
+  max-width: 400px;
   margin-right: 10px;
+  
 }
-#abilities .container-article .container-img-abilities img {
+#abilities .container-img-abilities img {
   width: 100%;
   height: 100%;
   object-fit: fill;
   filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
 }
-#abilities .container-article .container-abilities p {
+
+#abilities p {
   font-family: var(--font-texto);
   font-size: 0.8rem;
   font-weight: 300;
-  padding: 5px;
+  padding: 5%;
 }
-#abilities .container-article .container-abilities h5 {
-  color: #fff;
+#abilities h5 {
+  color: #000;
   font-family: var(--font-texto);
   font-size: 1.1rem;
   font-style: italic;
@@ -203,6 +216,8 @@
   text-align: center;
   margin: 5px 0;
 }
+
+
 /* Training */
 #training {
 width: 100%;
