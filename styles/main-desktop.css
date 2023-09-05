@@ -19,7 +19,18 @@
   #favorite-word .container-favorite .favorite-word-parrafo {
     flex-direction: row;
   }
+  #training {
+    padding: 4% 0 10% 0;
+    }
+  #training figcaption{
+    font-size: 0.8rem;
+  }
+  #training .age {
+    font-size: 0.9rem;
+  }
 }
+
+
 
 
 @media screen and (min-width: 1023px) {
