@@ -28,7 +28,7 @@
 
 <section>
   <article>
-    <h2>How to Use</h2>
+    <h2>How to Use the Wiki</h2>
     <p>You can navigate the Wiki using the navigation bar at the top if you're on a PC. Use the button with the house icon, located in the bottom right, to open the menu and select your next destination.</p>
   </article>
 </section>
